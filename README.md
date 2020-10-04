@@ -1,6 +1,6 @@
 # mangadex-genre-sifter
 
-External modules - bs4, openpyxl
+***External modules required - bs4, openpyxl***
 
 This script searches through 10 (changeable in settings.py) pages in the given mangadex genre link and finds all manga that meet the user's criteria. Afterwards 
 it stores the results in an excel document inside a new directory. 
