@@ -8,7 +8,7 @@ import sifter_functions
 import settings
 
 # Base link to sift through.
-base_link = "https://mangadex.org/genre/5/comedy/0/2/"
+base_link = input("Link of genre to sift through: ")
 
 base_link, genre = sifter_functions.format_link(base_link)	
 	
