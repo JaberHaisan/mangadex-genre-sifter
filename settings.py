@@ -8,6 +8,8 @@
 # and rejected genres to an empty list.
 # Change excluded_nationality to an empty string if you don't want to exclude any
 # nationality.
+# Make sure not to set max_page too high as mangadex soft bans your ip if
+# you make about 500 hits to their website in 10 minutes.
 
 # User id. 
 user_id = "532463"
