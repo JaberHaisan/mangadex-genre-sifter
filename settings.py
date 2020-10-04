@@ -16,8 +16,7 @@ user_id = "532463"
 min_rating = 7.5
 
 # Names of series that the user wants to exclude.
-not_needed = ["Haikyuu!!", "Love Live!", "Touhou", "Kantai Collection", "Danganronpa",
-"BanG Dream!", "Promo"]
+not_needed = ["Haikyuu!!", "Love Live!", "Touhou", "Kantai Collection", "Danganronpa", "BanG Dream!", "Promo"]
 
 # Genres that the user wants to exclude. 
 rejected_genres = ["Yuri", "Yaoi", "Shoujo Ai", "Shounen Ai"]
