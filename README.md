@@ -15,7 +15,7 @@ Possible criteria include:
 All the criteria are set from settings.py. Please change it to meet your requirements.
 
 Please make sure to give the link in a format like these links: "https://mangadex.org/genre/5/comedy/0/2/" or "https://mangadex.org/genre/5/comedy"
-(You can get a complete link for a genre by going to the second page of the genre. In the first page a redacted link like "https://mangadex.org/genre/5/"
+(You can get a complete link for a genre by going to the second (or higher) page of the genre. In the first page a redacted link like "https://mangadex.org/genre/5/"
 is shown which cannot be used by the script to iterate through pages properly. The script takes the required part from the link using regex so
 it will still start from the 1st page even if you give it the link for the 2nd page so no need to worry.
 
