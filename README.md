@@ -10,6 +10,7 @@ Possible criteria include:
 2. If it has any genre that the user does not want to read.
 3. If the manga is of a particular nationality that the user does not want.
 4. If the rating of the manga is high enough to meet the user's requirements.
+5. If the series is from a particular series the user wishes to exclude. For e.g. "Touhou".
 
 All the criteria are set from settings.py. Please change it to meet your requirements.
 
