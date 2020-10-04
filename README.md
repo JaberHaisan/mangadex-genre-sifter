@@ -7,7 +7,7 @@ it stores the results in an excel document inside a new directory.
 
 Possible criteria include:
 1. If the manga is already in the user's lists or not.
-2. If it has any genre that the user does not want to read.
+2. If it has any genre that the user wishes to exclude.
 3. If the manga is of a particular nationality that the user does not want.
 4. If the rating of the manga is high enough to meet the user's requirements.
 5. If the series is from a particular series the user wishes to exclude. For e.g. "Touhou".
