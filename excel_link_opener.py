@@ -38,7 +38,7 @@ if __name__ == "__main__":
 			print(msg)
 		else:
 			files.sort()
-			# Convert to an indexed dictionary to help user choose a file more
+			# Convert files to an indexed dictionary to help user choose a file more
 			# easily.
 			files = {str(i): filename for i, filename in enumerate(files, 1)}
 			print("These files are available: \n")
@@ -48,7 +48,7 @@ if __name__ == "__main__":
 			while True:	
 				num = input("\nPlease enter index of file you wish to open: ")
 				if num not in files.keys():
-					 print("Please enter a valid number.")
+					 print("Please enter a valid number (%s-%s)." % (1, max(files.keys())))
 				else:
 					break
 			print("\nOpening %s" % files[num])
