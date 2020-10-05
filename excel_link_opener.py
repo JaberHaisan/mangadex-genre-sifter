@@ -30,19 +30,29 @@ def link_opener(file_path, col=3):
 
 if __name__ == "__main__":	
 	if os.path.exists(folder_name):
-		res = []
+		files = []
 		for filename in os.listdir(folder_name):
 			if filename.endswith(".xlsx"):
-				res.append(filename)
-		if not res:
+				files.append(filename)		
+		if not files:
 			print(msg)
 		else:
+			files.sort()
+			# Convert to an indexed dictionary to help user choose a file more
+			# easily.
+			files = {str(i): filename for i, filename in enumerate(files, 1)}
 			print("These files are available: \n")
-			for filename in res:
-				print(filename)			
-				
-			name = input("\nWhich one should be opened? ")
-			file_path = os.path.join(folder_name, name)
+			for i, filename in files.items():
+				print("{}) {}".format(i, filename))			
+			
+			while True:	
+				num = input("\nPlease enter index of file you wish to open: ")
+				if num not in files.keys():
+					 print("Please enter a valid number.")
+				else:
+					break
+			print("\nOpening %s" % files[num])
+			file_path = os.path.join(folder_name, files[num])
 			link_opener(file_path)
 	else:
 		print(msg)
