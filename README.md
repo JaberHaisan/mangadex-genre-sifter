@@ -2,7 +2,7 @@
 
 ***External modules required - bs4, openpyxl***
 
-Note - This script was made for Mangadex v4. After Mangadex v5 comes out it will be updated.
+Note - Currently Mangadex is under maintenance until v5 is completed. After Mangadex v5 comes out the script will be updated if necessary.
 
 This script searches through 10 (changeable in settings.py) pages in the given mangadex genre link and finds all manga that meet the user's criteria. Afterwards 
 it stores the results in an excel document inside a new directory. 
